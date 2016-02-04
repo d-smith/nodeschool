@@ -1,14 +1,15 @@
 var qhttp = require('q-io/http');
 
+function getUser(id) {
+  return qhttp.read('http://localhost:7001/' + id)
+}
+
+function bufToUser(buf) {
+  console.log(JSON.parse(buf));
+}
+
 qhttp.read('http://localhost:7000')
-  .then(function(sess) {
-    var id = sess.toString('utf8');
-    qhttp.read('http://localhost:7001/' + id)
-      .then(function(user){
-          console.log(JSON.parse(user));
-      })
-      .then(null, console.log)
-      .done();
-  })
+  .then(getUser)
+  .then(function(json){ console.log(JSON.parse(json))})
   .then(null, console.log)
   .done();
