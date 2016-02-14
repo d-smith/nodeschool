@@ -1,0 +1,11 @@
+{
+  "name": "@d-smith/how-to-npm",
+  "version": "0.0.1",
+  "description": "How to npm node school",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
