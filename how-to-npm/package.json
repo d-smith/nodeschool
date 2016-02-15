@@ -6,6 +6,12 @@
   "scripts": {
     "test": "node test.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "D. Smith",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d-smith/nodeschool/tree/master/how-to-npm"
+  }
 }
