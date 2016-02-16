@@ -1,6 +1,6 @@
 {
   "name": "@d-smith/how-to-npm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "How to npm node school",
   "main": "index.js",
   "scripts": {
