@@ -8,7 +8,9 @@
   },
   "author": "D. Smith",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
